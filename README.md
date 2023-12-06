@@ -1,3 +1,4 @@
+<p align="center">
 <img style="border-radius:50%" height="35px" src="https://raw.githubusercontent.com/i8mb/i8mb.github.io/main/image/Chrome.gif">
 <p align="center">
 Welcome To Chrome OS Exploits.
