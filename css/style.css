@@ -41,6 +41,7 @@
             height: 45px;
             width: 45px;
             margin-right: 15px;
+	    padding: 14px 1px;
         }
 
         .topnav .title {
