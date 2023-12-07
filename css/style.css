@@ -52,6 +52,13 @@ body {
         font-size: 17px;
 }
 
+footer {
+  color: #ffffff;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 10px;
+}
+
 @media screen and (max-width: 600px) {
 	.topnav a:not(:first-child) {display: none;}
 	.topnav a.icon {
