@@ -53,7 +53,8 @@ body {
 }
 
 footer {
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #000000;
   bottom: 0;
   right: 0;
   left: 0;
