@@ -54,6 +54,9 @@ body {
 
 footer {
   color: #ffffff;
+  bottom: 0;
+  right: 0;
+  left: 0;
   text-align: center;
   margin-top: auto;
   margin-bottom: 5px;
