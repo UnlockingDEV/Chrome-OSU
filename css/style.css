@@ -55,12 +55,12 @@ body {
 footer {
   background-color: #ffffff;
   color: #000000;
+  position: absolute;
   bottom: 0;
-  right: 0;
   left: 0;
+  width: 100%;
   text-align: center;
-  margin-top: auto;
-  margin-bottom: 5px;
+  padding: 10px;
 }
 
 @media screen and (max-width: 600px) {
