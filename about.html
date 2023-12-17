@@ -7,7 +7,6 @@
 	<link href="./image/Chrome.gif" rel="icon"/>
 </head>
 <body>
-
 	<div class="topnav" id="myTopnav">
         <img src="./image/Chrome.gif" alt="Chrome Logo" draggable="false">
         <a class="title">Chrome OS Exploits</a>
@@ -18,9 +17,11 @@
 			<i class="fa fa-bars"></i>
 		</a>
 	</div>
-        <h1>About This Site</h1>         
+	<div class="aboutpage">
+		<h1>About This Site</h1>         
         <p>This site is about unblocking censorship, exploits, or just unblocking blocked websites from your School in general, </p>
     	<p>This website was made by i8mb.</p>
+	</div>
 	<footer><b>Chrome OS Exploits is against School Extensions.</b><br>
 	I have no responsibility if you get in trouble at school whilest using this.</footer>
 	<script>
@@ -33,7 +34,6 @@
 			}
 		}
         document.querySelector(".topnav a.active").click();
-
         document.querySelectorAll(".topnav a").forEach(function(link) {
             link.addEventListener("click", function(event) {
                 event.preventDefault();
@@ -48,6 +48,5 @@
             });
         });
 	</script>
-
 </body>
 </html>
