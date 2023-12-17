@@ -7,7 +7,6 @@
 	<link href="./image/Chrome.gif" rel="icon"/>
 </head>
 <body>
-
 	<div class="topnav" id="myTopnav">
         <img src="./image/Chrome.gif" alt="Chrome Logo" draggable="false">
         <a class="title">Chrome OS Exploits</a>
@@ -29,9 +28,7 @@
 				x.className = "topnav";
 			}
 		}
-
         document.querySelector(".topnav a.active").click();
-
         document.querySelectorAll(".topnav a").forEach(function(link) {
             link.addEventListener("click", function(event) {
                 event.preventDefault();
@@ -46,6 +43,5 @@
             });
         });
 	</script>
-
 </body>
 </html>
