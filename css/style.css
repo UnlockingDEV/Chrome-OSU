@@ -52,6 +52,22 @@ body {
         font-size: 17px;
 }
 
+.aboutpage {
+	position: absolute;
+	width: 100%;
+	top: 20%;
+	transform: translateY(-50%);
+	text-align: center;
+}
+
+.page {
+	position: absolute;
+	width: 100%;
+	top: 20%;
+	transform: translateY(-50%);
+	text-align: center;
+}
+
 footer {
   background-color: #ffffff;
   color: #000000;
