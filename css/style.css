@@ -53,15 +53,6 @@ body {
     margin-right: 15px;
 }
 
-.topnav .title b {
-    float: left;
-    color: #000000;
-    text-align: center;
-    padding: 14px 1px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
 .aboutpage {
 	position: absolute;
 	width: 100%;
