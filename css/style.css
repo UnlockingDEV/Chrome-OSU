@@ -18,17 +18,27 @@ body {
 	text-decoration: none;
 	font-size: 17px;
 	border-bottom: 2px solid transparent;
+	transition: 0.5s;
+}
+
+.container a {
+	float: right;
+	color: #000000;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	border-bottom: 2px solid transparent;
+	transition: 0.5s;
 }
 
 .topnav a:hover {
-	background-color: #ddd;
 	color: #b3b3b3;
 	border-bottom: 2px solid white;
 }
 
-.topnav a.active {
-	background-color: #04AA6D;
-	color: white;
+.container a:hover {
+	color: #b3b3b3;
 	border-bottom: 2px solid white;
 }
 
