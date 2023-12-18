@@ -21,7 +21,7 @@ body {
 	transition: 0.5s;
 }
 
-.container a {
+.page a {
 	float: right;
 	color: #000000;
 	text-align: center;
@@ -37,7 +37,7 @@ body {
 	border-bottom: 2px solid white;
 }
 
-.container a:hover {
+.page a:hover {
 	color: #b3b3b3;
 	border-bottom: 2px solid white;
 }
