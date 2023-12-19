@@ -21,21 +21,7 @@ body {
 	transition: 0.5s;
 }
 
-.page a {
-	color: #000000;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
-	border-bottom: 2px solid transparent;
-	transition: 0.5s;
-}
-
 .topnav a:hover {
-	color: #b3b3b3;
-	border-bottom: 2px solid white;
-}
-
-.page a:hover {
 	color: #b3b3b3;
 	border-bottom: 2px solid white;
 }
@@ -65,6 +51,20 @@ body {
 	top: 20%;
 	transform: translateY(-50%);
 	text-align: center;
+}
+
+.page a {
+	color: #000000;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	border-bottom: 2px solid transparent;
+	transition: 0.5s;
+}
+
+.page a:hover {
+	color: #b3b3b3;
+	border-bottom: 2px solid white;
 }
 
 footer {
