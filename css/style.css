@@ -78,52 +78,6 @@ footer {
   padding: 10px;
 }
 
-.circle {
- position: absolute;
- border-radius: 50%;
- background-color: #fff;
- animation: move 10s linear infinite;
-}
-
-.circle:nth-child(1) {
- width: 50px;
- height: 50px;
- top: 10%;
- left: 10%;
-}
-
-.circle:nth-child(2) {
- width: 100px;
- height: 100px;
- top: 50%;
- left: 50%;
-}
-
-.circle:nth-child(3) {
- width: 75px;
- height: 75px;
- top: 90%;
- left: 90%;
-}
-
-@keyframes move {
-   0% {
-    transform: translate(0, 0);
-   }
-   25% {
-    transform: translate(50px, 100px);
-   }
-   50% {
-    transform: translate(100px, 50px);
-   }
-   75% {
-    transform: translate(-50px, -100px);
-   }
-   100% {
-    transform: translate(0, 0);
-   }
-}
-
 @media screen and (max-width: 600px) {
 	.topnav a:not(:first-child) {display: none;}
 	.topnav a.icon {
