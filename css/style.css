@@ -40,7 +40,7 @@ body {
 .aboutpage {
 	position: absolute;
 	width: 100%;
-	top: 20%;
+	top: 30%;
 	transform: translateY(-50%);
 	text-align: center;
 }
