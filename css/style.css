@@ -70,7 +70,7 @@ body {
 footer {
   background-color: #ffffff;
   color: #000000;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   width: 98.88%;
