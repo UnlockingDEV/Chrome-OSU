@@ -23,29 +23,6 @@
     	</div>
 	<footer><b>Chrome OS Exploits is against School Extensions.</b><br>
 	I have no responsibility if you get in trouble at school whilest using this.</footer>
-	<script>
-		function myFunction() {
-			var x = document.getElementById("myTopnav");
-			if (x.className === "topnav") {
-				x.className += " responsive";
-			} else {
-				x.className = "topnav";
-			}
-		}
-        document.querySelector(".topnav a.active").click();
-        document.querySelectorAll(".topnav a").forEach(function(link) {
-            link.addEventListener("click", function(event) {
-                event.preventDefault();
-                document.querySelectorAll(".topnav a").forEach(function(link) {
-                    link.classList.remove("active");
-                });
-                event.target.classList.add("active");
-                document.querySelectorAll("div[id]").forEach(function(div) {
-                    div.style.display = "none";
-                });
-                document.querySelector(event.target.getAttribute("href")).style.display = "block";
-            });
-        });
-	</script>
+	<script src="./javascript/index.js"></script>
 </body>
 </html>
