@@ -38,18 +38,16 @@ body {
 }
 
 .aboutpage {
-	position: absolute;
+	position: fixed;
 	width: 100%;
-	font-size: 5vw;
 	top: 25%;
 	transform: translateY(-50%);
 	text-align: center;
 }
 
 .page {
-	position: absolute;
+	position: fixed;
 	width: 100%;
-	font-size: 5vw;
 	top: 25%;
 	transform: translateY(-50%);
 	text-align: center;
