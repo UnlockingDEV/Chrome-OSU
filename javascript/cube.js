@@ -1,18 +1,10 @@
-var container = document.querySelector('.container');
-var cube = document.querySelector('.cube');
+const canvas = document.getElementById('canvas');
+const ctx = canvas.getContext('2d');
 
-container.addEventListener('mousemove', function(e) {
-  var x = e.clientX / window.innerWidth;
-  var y = e.clientY / window.innerHeight;
-  
-  cube.style.transform = 'rotateX(' + (y * 20) + 'deg) rotateY(' + (x * 20) + 'deg)';
-});
+function draw() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  requestAnimationFrame(draw);
+}
 
-var observer = new IntersectionObserver(function(entries) {
-  if (entries[0].isIntersecting === false) {
-    cube.style.left = '-50px';
-    cube.style.top = Math.floor(Math.random() * window.innerHeight) + 'px';
-  }
-});
-
-observer.observe(container);
+setInterval(function() {}, 1000 / 60);
+requestAnimationFrame(draw);
