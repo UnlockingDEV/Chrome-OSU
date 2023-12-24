@@ -39,10 +39,10 @@ body {
 }
 
 .aboutpage {
-	font-size: .5vw;
+	font-size: 1vw;
 	position: relative;
-	width: 100%;
-	top: 25%;
+	width: 100vw;
+	top: 25vw;
 	transform: translateY(-50%);
 	text-align: center;
 }
