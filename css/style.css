@@ -39,7 +39,7 @@ body {
 }
 
 .aboutpage {
-	position: fixed;
+	position: relative;
 	width: 100%;
 	top: 25%;
 	transform: translateY(-50%);
@@ -47,7 +47,7 @@ body {
 }
 
 .page {
-	position: fixed;
+	position: relative;
 	width: 100%;
 	top: 25%;
 	transform: translateY(-50%);
