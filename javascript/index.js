@@ -21,4 +21,3 @@ document.querySelectorAll(".topnav a").forEach(function(link) {
 		document.querySelector(event.target.getAttribute("href")).style.display = "block";
 		});
 });
-console.log("Hello, welcome")
