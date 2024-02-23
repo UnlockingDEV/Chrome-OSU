@@ -15,9 +15,9 @@ body {
 	float: right;
 	color: #ffffff;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 1.1vw 1.1vw;
 	text-decoration: none;
-	font-size: 17px;
+	font-size: 1.34vw;
 	border-bottom: 2px solid transparent;
 	transition: 0.5s;
 }
@@ -33,9 +33,9 @@ body {
 
 .topnav img {
     float: left;
-    height: 45px;
-    width: 45px;
-    margin-right: 15px;
+    height: 3.55vw;
+    width: 3.55vw;
+    margin-right: 15vw;
 }
 
 .aboutpage {
@@ -58,9 +58,9 @@ body {
 
 .page a {
 	color: #000000;
-	padding: 14px 16px;
+	padding: 1.1vw 1.1vw;
 	text-decoration: none;
-	font-size: 17px;
+	font-size: 1vw;
 	border-bottom: 2px solid transparent;
 	transition: 0.5s;
 }
@@ -68,17 +68,6 @@ body {
 .page a:hover {
 	color: #b3b3b3;
 	border-bottom: 2px solid white;
-}
-
-footer {
-  background-color: #ffffff;
-  color: #000000;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 98.88%;
-  text-align: center;
-  padding: 10px;
 }
 
 @media screen and (max-width: 600px) {
